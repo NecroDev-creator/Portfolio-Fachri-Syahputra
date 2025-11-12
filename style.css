@@ -72,9 +72,6 @@ header {
   max-width: 600px;
 }
 
-.home-img {
-  margin-left: 40px;
-}
 .home-img img {
   width: 400px;
   height: 400px;
@@ -82,14 +79,10 @@ header {
   object-fit: cover;
   border: 5px solid #0ef;
   box-shadow: 0 0 20px #0ef;
-  position: absolute;
-  top: 50%;
-  right: 10%;
-  transform: translateY(-50%);
 }
 
 .home-img img:hover {
-    box-shadow: 0 0 40px #0ef, 0 0 80px #0ef;
+  box-shadow: 0 0 40px #0ef, 0 0 80px #0ef;
 }
 
 
